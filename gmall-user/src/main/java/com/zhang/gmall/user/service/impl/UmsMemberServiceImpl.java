@@ -1,7 +1,7 @@
 package com.zhang.gmall.user.service.impl;
 
-import com.zhang.gmall.user.entity.UmsMember;
-import com.zhang.gmall.user.entity.UmsMemberReceiveAddress;
+import com.zhang.gmall.entity.UmsMember;
+import com.zhang.gmall.entity.UmsMemberReceiveAddress;
 import com.zhang.gmall.user.mapper.UmsMemberMapper;
 import com.zhang.gmall.user.service.IUmsMemberReceiveAddressService;
 import com.zhang.gmall.user.service.IUmsMemberService;

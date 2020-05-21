@@ -1,7 +1,8 @@
 package com.zhang.gmall.user.controller;
 
-import com.zhang.gmall.user.entity.UmsMember;
-import com.zhang.gmall.user.entity.UmsMemberReceiveAddress;
+
+import com.zhang.gmall.entity.UmsMember;
+import com.zhang.gmall.entity.UmsMemberReceiveAddress;
 import com.zhang.gmall.user.service.IUmsMemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

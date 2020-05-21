@@ -1,10 +1,7 @@
 package com.zhang.gmall.user.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
-import com.zhang.gmall.user.entity.UmsMemberReceiveAddress;
+import com.zhang.gmall.entity.UmsMemberReceiveAddress;
 import com.zhang.gmall.user.mapper.UmsMemberReceiveAddressMapper;
 import com.zhang.gmall.user.service.IUmsMemberReceiveAddressService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

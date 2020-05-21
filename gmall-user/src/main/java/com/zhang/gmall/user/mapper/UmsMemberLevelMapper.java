@@ -1,6 +1,6 @@
 package com.zhang.gmall.user.mapper;
 
-import com.zhang.gmall.user.entity.UmsMemberLevel;
+import com.zhang.gmall.entity.UmsMemberLevel;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

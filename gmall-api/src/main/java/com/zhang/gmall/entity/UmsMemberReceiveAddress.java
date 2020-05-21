@@ -1,4 +1,4 @@
-package com.zhang.gmall.user.entity;
+package com.zhang.gmall.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

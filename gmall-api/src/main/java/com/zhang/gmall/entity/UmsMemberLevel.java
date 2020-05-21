@@ -1,4 +1,4 @@
-package com.zhang.gmall.user.entity;
+package com.zhang.gmall.entity;
 
 import java.math.BigDecimal;
 import com.baomidou.mybatisplus.annotation.IdType;

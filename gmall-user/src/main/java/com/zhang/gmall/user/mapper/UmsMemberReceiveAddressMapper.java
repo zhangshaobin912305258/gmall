@@ -1,6 +1,6 @@
 package com.zhang.gmall.user.mapper;
 
-import com.zhang.gmall.user.entity.UmsMemberReceiveAddress;
+import com.zhang.gmall.entity.UmsMemberReceiveAddress;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

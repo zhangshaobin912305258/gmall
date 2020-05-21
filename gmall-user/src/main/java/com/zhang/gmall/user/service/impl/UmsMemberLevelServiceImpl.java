@@ -1,6 +1,6 @@
 package com.zhang.gmall.user.service.impl;
 
-import com.zhang.gmall.user.entity.UmsMemberLevel;
+import com.zhang.gmall.entity.UmsMemberLevel;
 import com.zhang.gmall.user.mapper.UmsMemberLevelMapper;
 import com.zhang.gmall.user.service.IUmsMemberLevelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

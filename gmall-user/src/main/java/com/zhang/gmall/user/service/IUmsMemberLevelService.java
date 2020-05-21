@@ -1,7 +1,7 @@
 package com.zhang.gmall.user.service;
 
-import com.zhang.gmall.user.entity.UmsMemberLevel;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.zhang.gmall.entity.UmsMemberLevel;
 
 /**
  * <p>
