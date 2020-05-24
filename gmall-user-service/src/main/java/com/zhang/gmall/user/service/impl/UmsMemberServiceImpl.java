@@ -9,6 +9,8 @@ import com.zhang.gmall.service.IUmsMemberService;
 import com.zhang.gmall.user.mapper.UmsMemberMapper;
 import lombok.RequiredArgsConstructor;
 
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.List;
 
 /**
@@ -33,5 +35,20 @@ public class UmsMemberServiceImpl extends ServiceImpl<UmsMemberMapper, UmsMember
     @Override
     public List<UmsMemberReceiveAddress> getReceiveAddressByMemberId(Long memberId) {
         return umsMemberReceiveAddressService.getReceiveAddressByMemberId(memberId);
+    }
+
+    public static void main(String[] args) {
+        LocalDate preDate = LocalDate.of(2017, 1, 15);
+        LocalDate nowDate = LocalDate.now();
+
+        int years = preDate.until(nowDate).getYears();
+        int months = preDate.until(nowDate).getMonths();
+        int days = preDate.until(nowDate).getDays();
+        System.out.println("间隔:"+years + " years," + months + " months and " + days + " days");
+
+        int lastDayInt = (int) (LocalDate.of(2020,10,10).toEpochDay() - preDate.toEpochDay());
+        System.out.println(lastDayInt);
+        System.out.println(preDate.plusDays(1314));
+
     }
 }
