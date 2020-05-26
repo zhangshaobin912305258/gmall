@@ -2,6 +2,7 @@ package com.zhang.gmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.zhang.gmall.entity.PmsBaseAttrInfo;
+import com.zhang.gmall.entity.PmsBaseSaleAttr;
 import com.zhang.gmall.service.AttrService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -26,5 +27,10 @@ public class AttrController {
     @RequestMapping("/saveAttrInfo")
     public String saveAttrInfo(@RequestBody PmsBaseAttrInfo pmsBaseAttrInfo) {
         return attrService.saveAttrInfo(pmsBaseAttrInfo);
+    }
+
+    @RequestMapping("baseSaleAttrList")
+    public List<PmsBaseSaleAttr> baseSaleAttrList() {
+        return attrService.baseSaleAttrList();
     }
 }

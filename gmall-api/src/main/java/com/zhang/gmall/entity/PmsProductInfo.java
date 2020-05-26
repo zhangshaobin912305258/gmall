@@ -1,8 +1,11 @@
 package com.zhang.gmall.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.util.List;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -48,5 +51,10 @@ public class PmsProductInfo implements Serializable {
      */
     private Long tmId;
 
+    @TableField(exist = false)
+    private List<PmsProductSaleAttr> pmsProductSaleAttrList;
+
+    @TableField(exist = false)
+    private List<PmsProductImage> pmsProductImageList;
 
 }
